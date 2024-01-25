@@ -1,3 +1,81 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
 body{
-  background-color: aquamarine;
+ 
+}
+
+header{
+  background-color: lightskyblue;
+  color: lightcyan;
+  text-shadow: 0 0 5px lightpink, 0 0 5px lightslategray;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+  position: fixed;
+  right: 0;
+  left: 0;
+}
+
+main {
+  border: 1px solid black;
+ position: fixed;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ top: 89px;
+ background-color: rgb(87, 83, 83);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.container-project-detail {
+border: 1px solid rgb(87, 83, 83);
+width: 650px;
+height: 700px;
+border-radius: 1rem;
+background-color: lightgray;
+padding: 20px;
+}
+
+h2{
+
+  text-align: center;
+  font-size: 35px;
+  color: rgb(64, 70, 70);
+  text-shadow: 0 0 5px lightskyblue, 0 0 5px black;
+ 
+}
+
+
+ul{
+
+  font-size: 25px;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+ul li {
+  list-style: none; 
+  
+}
+
+ul li a{
+  text-decoration:none;
+  color: white;
+  text-shadow: 0 0 5px black;
+  font-weight: bold;
+
+}
+
+ul li a:hover{
+  color: lightsteelblue;
+  font-size: 28px;
+  transition: 0.15s;
 }
